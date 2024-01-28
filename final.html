@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>fav_anime</title>
+ <style type="text/css">
+
+ 	body {#background-video { width: 100vw;
+  							height: 100vh;
+						  object-fit: cover;
+						  position: fixed;
+  							left: 0;
+ 						   right: 0;
+ 						  top: 0;
+						  bottom: 0;
+  						z-index: -1;}		
+
+
+h1.header{ font-size:100px ;
+text-align: center;
+font-family:fantasy;
+color:#B3421A;
+transition: font-size 1s;-webkit-text-stroke: 1px black;}
+h1.header:hover{font-size:120px;}
+
+
+.container {display: flex;
+            align-items:center;
+ 			 justify-content: center}
+
+
+.text { font-size: 20px;
+       padding-left: 20px;}
+
+
+img.first{border:5px solid #9C2C04 ;border-radius:25px;transition:transform 1s; margin-left:5%}
+img.first:hover{transform:scale(1.3);z-index: 2;}
+	h2.first{font-size: 50px; color: #9C2C04; margin-left: 5%;-webkit-text-stroke: 2px goldenrod;}}
+	p.first{ color:#67071A; background-image: url(https://scontent.fdel27-2.fna.fbcdn.net/v/t1.6435-9/129642828_427376388667939_3290266194110579841_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=UeD7bSk-5LgAX-5OhrY&_nc_ht=scontent.fdel27-2.fna&oh=00_AfA3HZnc--j6nMaCFk_C94B9zWe7lbRIdbOY_DFwvmHHuA&oe=65DA1A74);transition:font-size 0.1s;opacity:0.7}
+	p.first:hover{font-size: 25px;}
+	ul.first{ font-size:20px;transition: font-size 1s;}
+	ul.first:hover{font-size: 30px;}
+input.first{color:darkred; font-size:20px; background-color:goldenrod;opacity: 0.7 }
+button.first{color:darkred; font-size:20px; background-color:goldenrod;margin-left: 55%; opacity: 0.7}
+
+
+
+img.second{border: 5px solid #9C2C04;border-radius: 25px;transition:transform 1s; margin-left:5% }
+img.second:hover{transform:scale(1.3);z-index: 2;}
+	h2.second{font-size: 50px; color: #9C2C04;margin-left:5%;-webkit-text-stroke: 2px goldenrod;}
+	p.second{ color:#67071A; background-image: url(https://scontent.fdel27-2.fna.fbcdn.net/v/t1.6435-9/129642828_427376388667939_3290266194110579841_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=UeD7bSk-5LgAX-5OhrY&_nc_ht=scontent.fdel27-2.fna&oh=00_AfA3HZnc--j6nMaCFk_C94B9zWe7lbRIdbOY_DFwvmHHuA&oe=65DA1A74);transition: font-size 0.1s;opacity:0.7}
+	p.second:hover{font-size: 25px;}
+	ul.second{ font-size:20px;transition: font-size 1s;}
+	ul.second:hover{font-size: 30px;}
+input.second{color:darkred; font-size:20px; background-color:goldenrod;opacity: 0.7 }
+button.second{color:darkred; font-size:20px; background-color:goldenrod;margin-left: 55%; opacity: 0.7}
+
+
+
+	img.third{border: 5px solid #9C2C04;border-radius: 25px;transition: transform 1s;margin-left:5% }
+img.third:hover{transform:scale(1.3);z-index: 2;}
+	h2.third{font-size: 50px; color: #9C2C04;margin-left:5%;-webkit-text-stroke: 2px goldenrod;}
+	p.third{ color:#67071A; background-image: url(https://scontent.fdel27-2.fna.fbcdn.net/v/t1.6435-9/129642828_427376388667939_3290266194110579841_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=UeD7bSk-5LgAX-5OhrY&_nc_ht=scontent.fdel27-2.fna&oh=00_AfA3HZnc--j6nMaCFk_C94B9zWe7lbRIdbOY_DFwvmHHuA&oe=65DA1A74);transition: font-size 0.1s;opacity:0.7}
+	p.third:hover{font-size: 25px;}
+	ul.third{ font-size:20px;transition: font-size 1s;}
+	ul.third:hover{font-size: 30px;}
+input.third{color:darkred; font-size:20px; background-color:goldenrod; opacity: 0.7 }
+button.third{color:darkred; font-size:20px; background-color:goldenrod;margin-left: 55%; opacity: 0.7}
+
+
+
+	img.fourth{border: 5px solid #9C2C04;border-radius: 25px;transition: transform 1s;margin-left:5% }
+img.fourth:hover{transform:scale(1.3);z-index: 2;}
+	h2.fourth{font-size: 50px; color: #9C2C04;margin-left:5%;-webkit-text-stroke: 2px goldenrod;}
+	p.fourth{ color:#67071A; background-image: url(https://scontent.fdel27-2.fna.fbcdn.net/v/t1.6435-9/129642828_427376388667939_3290266194110579841_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=UeD7bSk-5LgAX-5OhrY&_nc_ht=scontent.fdel27-2.fna&oh=00_AfA3HZnc--j6nMaCFk_C94B9zWe7lbRIdbOY_DFwvmHHuA&oe=65DA1A74);transition: font-size 0.1s;opacity:0.7}
+	p.fourth:hover{font-size: 25px;}
+	ul.fourth{ font-size:20px;transition: font-size 1s;}
+	ul.fourth:hover{font-size: 30px;}
+input.fourth{color:darkred; font-size:20px; background-color:goldenrod; opacity: 0.7 }
+button.fourth{color:darkred; font-size:20px; background-color:goldenrod;margin-left: 55%; opacity: 0.7}
+
+
+
+	img.fifth{border: 5px solid #9C2C04;border-radius: 25px;transition: transform 1s;margin-left:5% }
+img.fifth:hover{transform:scale(1.3);z-index: 2;}
+	
+	h2.fifth{font-size: 50px; color: #9C2C04;margin-left:5%;-webkit-text-stroke: 2px goldenrod;}
+	p.fifth{ color:#67071A; background-image: url(https://scontent.fdel27-2.fna.fbcdn.net/v/t1.6435-9/129642828_427376388667939_3290266194110579841_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=UeD7bSk-5LgAX-5OhrY&_nc_ht=scontent.fdel27-2.fna&oh=00_AfA3HZnc--j6nMaCFk_C94B9zWe7lbRIdbOY_DFwvmHHuA&oe=65DA1A74);transition: font-size 0.1s;opacity:0.7}
+	p.fifth:hover{font-size: 25px;}
+	ul.fifth{ font-size:20px;transition: font-size 1s;}
+	ul.fifth:hover{font-size: 30px;}
+input.fifth{color:darkred; font-size:20px; background-color:goldenrod;; opacity: 0.7 }
+button.fifth{color:darkred; font-size:20px; background-color:goldenrod;margin-left:55%; opacity: 0.7}
+
+
+	input{font-size: 30px; margin-left: 30%; width: 600px; text-align: center;}
+	button{font-size: 25px;margin-left: 50%}
+	button.ok{background-color:goldenrod;opacity:0.5}
+
+ </style>
+
+</head>
+<body>
+<video id="background-video" autoplay loop muted poster="">
+  <source src="https://motionbgs.com/media/2121/uzui-at-sunset.960x540.mp4"type="video/mp4">
+</video>
+<div class="header">
+	<a href="file:///C:/Users/allen/Desktop/account.html"><h1 class="header">
+		My Anime List
+	</h1></a>
+	<div class="container">
+      <div class="image">
+      	<img class="first" src="https://upload.wikimedia.org/wikipedia/en/8/8c/Vinland_Saga_key_visual.png">
+      </div>
+     <div class="text">
+     	<h2 class="first"><u style="text-decoration-color:#5B1092 ">Vinland Saga</u></h2>
+     	<p class="first"><b>Vinland Saga (Japanese: ヴィンランド・サガ, Hepburn: Vinrando Saga) is a Japanese anime television series based on Makoto Yukimura's manga of the same name. The first season was produced by Wit Studio in 2019 and the second one by MAPPA in 2023. They follow the life of a child named Thorfinn who becomes involved with Vikings following his father's death. The first season follows his exploits as a revenge-driven Viking, while in the second season, the story shifts to his life as a stoic slave who finds no reason to live.</b>
+</p>
+       <button class="ok"><ul class="first"><b>
+        	<li><a href="https://aniwatch.to/vinland-saga-40?ref=search">Watch Vinland Saga</a></li>
+        	<br>
+        	<li><a href="https://mangareader.to/vinland-saga-14">Read the manga</a></li>
+        	</b></ul></button>
+        	<br><br>
+     	<input class="first" type="Text" name="" placeholder="Review Box">
+     	<button class="first">Submit</button>
+     </div>
+</div>
+<br><br><br>
+<div class="container">
+      <div class="image">
+      	<img class="second" src="https://upload.wikimedia.org/wikipedia/en/f/f4/Berserk_%281997_anime%29%2C_DVD_cover_1.jpg">
+      </div>
+      <div class="text">
+      	<h2 class="second"><u style="text-decoration-color:#5B1092"> Berserk</u></h2>
+      	<p class="second"><b>Berserk, also known in Japan as Kenpū Denki Berserk,[a] is a Japanese anime television series based on Kentaro Miura's manga series of the same name.It was broadcast for 25 episodes on Nippon TV from October 1997 to April 1998. The story revolves around Guts is a lone mercenary warrior who wanders Midland looking for battles, driven solely by his will to survive</b></p>
+
+      <button class="ok"><ul class="second"><b>
+<li><a href="https://aniwatch.to/berserk-1997-103?ref=search">Watch Berserk</a></li><br>
+<li><a href="https://mangareader.to/berserk-1"> Read the manga </a></li>
+
+      	</b>	
+      </ul></button>
+      <br><br>
+<input class="second" type="Text" name="" placeholder="Review Box">
+<button class="second">Submit</button>
+     </div>
+ </div>
+ <br><br><br>
+ <div class="container">
+      <div class="image">
+      	<img class="third" src="https://upload.wikimedia.org/wikipedia/en/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg">
+      </div>
+      	<div class="text">
+      	<h2 class="third"><u style="text-decoration-color:#5B1092">One Piece</u></h2>
+      	<p class="third"><b>One Piece is a Japanese anime television series produced by Toei Animation that premiered on Fuji TV in October 1999. It is based on Eiichiro Oda's manga series of the same name. The story follows the adventures of Monkey D. Luffy, a boy whose body gained the properties of rubber after unintentionally eating a Devil Fruit. With his crew, named the Straw Hat Pirates, Luffy explores the Grand Line in search of the world's ultimate treasure known as the "One Piece" in order to become the next Pirate King.</b></p>
+      	<button class="ok"><ul class="third"><b>
+      		<li><a href="https://aniwatch.to/one-piece-100?ref=search">Watch One Piece</a></li><br>
+      			<li><a href="https://mangareader.to/one-piece-3">Read the manga</a></li>
+      		</b>
+      	</ul></button>
+      	<br><br>
+      	<input class="third" type="Text" name="" placeholder="Review Box">
+      	<button class="third">Submit</button>
+      </div>
+      </div>
+<br><br><br>
+
+<div class="container">
+      <div class="image">
+      	<img class="fourth" src="https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg">
+      </div>
+      	<div class="text">
+      	<h2 class="fourth"><u style="text-decoration-color:#5B1092">Naruto</u></h2>
+      	<p class="fourth"><b>Naruto is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village. The story is told in two parts: the first is set in Naruto's pre-teen years (volumes 1–27), and the second in his teens (volumes 28–72). The series is based on two one-shot manga by Kishimoto: Karakuri (1995), which earned Kishimoto an honorable mention in Shueisha's monthly Hop Step Award the following year, and Naruto (1997).</b></p>
+      	<button class="ok"><ul class="fourth"><b>
+      		<li><a href="https://aniwatch.to/naruto-677?ref=search">Watch Naruto</a></li><br>
+      			<li><a href="https://mangareader.to/naruto-colored-edition-55924">Read the manga</a></li>
+      		</b>
+      	</ul></button>
+      	<br><br>
+      	<input class="fourth" type="Text" name="" placeholder="Review Box">
+      	<button class="fourth">Submit</button>
+      </div>
+      </div>
+<br><br><br>
+
+
+<div class="container">
+      <div class="image">
+      	<img class="fifth" src="https://upload.wikimedia.org/wikipedia/en/4/46/Jujutsu_kaisen.jpg">
+      </div>
+      	<div class="text">
+      	<h2 class="fifth"><u style="text-decoration-color:#5B1092">Jujutsu Kaisen</u></h2>
+      	<p class="fifth"><b>Jujutsu Kaisen (呪術廻戦, rgh. "Sorcery Battle") is a Japanese manga series written and illustrated by Gege Akutami. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since March 2018, with its chapters collected and published in 25 tankōbon volumes as of January 2024. The story follows high school student Yuji Itadori as he joins a secret organization of Jujutsu Sorcerers to eliminate a powerful Curse named Ryomen Sukuna, of whom Yuji becomes the host. Jujutsu Kaisen is a sequel to Akutami's Tokyo Metropolitan Curse Technical School, serialized in Shueisha's Jump Giga from April to July 2017, later collected in a tankōbon volume, retroactively titled as Jujutsu Kaisen 0, in December 2018.</b></p>
+      	<button class="ok"><ul class="fifth"><b>
+      		<li><a href="https://aniwatch.to/jujutsu-kaisen-tv-534?ref=search">Watch Jujutsu Kaisen</a></li><br>
+      			<li><a href="https://mangareader.to/jujutsu-kaisen-168?ref=search">Read the manga</a></li>
+      			</b>
+      	</ul></button>
+      	<br><br>
+      	<input class="fifth" type="Text" name="" placeholder="Review Box">
+      	<button class="fifth">Submit</button>
+      </div>
+      </div>
+<br><br><br><br><br><br><br><br>
+      <input type="Text" name="" placeholder="Add new anime in the list">
+      <br><br>
+      <button>Submit</button>
+   <br><br><br>  
+</body>
+</html>
